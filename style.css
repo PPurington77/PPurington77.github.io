@@ -42,7 +42,7 @@
 /* done with header bar--------------*/
 
 #container {
-    height: 1000px;
+    /* height: 1000px; */
     background-image: linear-gradient(#adadad, #64485c);
     padding: 20px 150px;
 }
@@ -56,6 +56,7 @@ h3 {
 #aboutMe img {
     height: 250px;
     border-radius: 50%;
+    box-shadow: 0px 0px 5px white;
 }
 
 #aboutMe {
@@ -75,20 +76,108 @@ h3 {
     line-height: 30px;
 }
 
+/* about me done --------------------------*/
+
 #education {
     background-color: #83677b;
-    padding: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 .schoolBox img {
-    height: 40px;
+    height: 60px;
 }
 
 .schoolBox {
     outline: 2px solid white;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 10px white;
 }
 
 .schoolBoxTop {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.schoolBottomBox {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+/* education done --------------- */
+
+.restOfTheBoxes {
+    background-color: #83677b;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.hobbyBox img {
+    height: 200px;
+    margin-top: 10px
+}
+
+.hobbyBox {
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+
+.hobbyBox p {
+    font-size: 1.2rem;
+}
+
+/*hobbys done ---------------------------*/
+
+/*skipping projects for now------------------------*/
+
+#languagePics {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#languagePics img {
+    height: 200px;
+    margin: 20px 0px 10px;
+}
+
+.restOfTheBoxesLanguage {
+    background-color: #83677b;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:white;
+    font-size: 1.3rem;
+}
+
+/* done with languages---------------------*/
+
+#socialMediaLink img {
+    height: 30px;
+    margin: 10px;
+}
+
+#socialMediaLink {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#socialMediaLink p {
+    color: white;
+    font-size: 1.2rem;
 }
