@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#header {
+    background-color: #2e1114;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+#header img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+#headerBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#nav-links {
+    display: flex;
+    list-style-type: none;
+    /* outline: 2px solid white; */
+    gap: 50px;
+
+}
+
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* done with header bar--------------*/
+
+#container {
+    height: 1000px;
+    background-image: linear-gradient(#adadad, #64485c);
+    padding: 20px 150px;
+}
+
+h3 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#aboutMe img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+#aboutMe {
+    background-color: #83677b;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#aboutMe p {
+    padding: 0px 20px;
+    font-weight: 500;
+    color: white;
+    line-height: 30px;
+}
+
+#education {
+    background-color: #83677b;
+    padding: 10px;
+}
+.schoolBox img {
+    height: 40px;
+}
+
+.schoolBox {
+    outline: 2px solid white;
+}
+
+.schoolBoxTop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
